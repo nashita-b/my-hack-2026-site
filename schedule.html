@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schedule — MY-HACK 2026 ICM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Baloo+2:wght@500;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <a href="index.html" class="brand"><span class="dot"></span>MY-HACK 2026</a>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="schedule.html" class="active">Schedule</a>
+      <a href="workshops.html">Workshops</a>
+      <a href="submission.html">Submission</a>
+      <a href="judging.html">Judging</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+    <div class="navActions">
+      <!-- TODO: replace # with the actual WhatsApp channel invite link once it exists -->
+      <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">WhatsApp ↗</a>
+      <!-- Devpost submission portal for the ICM event -->
+      <a class="btn btn-gold" href="https://myhack-2026.devpost.com/" target="_blank" rel="noopener">Devpost ↗</a>
+    </div>
+  </div>
+</header>
+
+<section class="pageHero">
+  <div class="wrap">
+    <a href="index.html" class="crumb">← Back to home</a>
+    <h1>Schedule</h1>
+    <p class="lead">The hackathon-day timeline. Hacking blocks run alongside prayer and meal breaks. Looking for workshops? See the <a href="workshops.html" style="color:var(--gold);text-decoration:underline;">workshops page</a>.</p>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="wrap">
+
+    <!--
+      LIVE EMBED SLOT — HACKATHON SCHEDULE
+      Once the schedule Google Doc is published (File → Share → Publish to web),
+      replace the .liveBox div directly below with:
+      <iframe src="YOUR_PUBLISHED_LINK" style="width:100%;min-height:800px;border:none;border-radius:14px;background:#fff;"></iframe>
+    -->
+    <div class="liveBox">
+      <span class="liveBadge">SOON: LIVE</span>
+      <p><b>This will link to a live, admin-editable schedule.</b> For now, here's the timeline as currently planned — exact times may shift day-of.</p>
+    </div>
+
+    <div class="scheduleTop">
+      <div class="sectionHead" style="margin-bottom:0;">
+        <span class="eyebrow">Day of</span>
+        <h2>Hackathon timeline</h2>
+      </div>
+    </div>
+
+    <div class="dayToggle">
+      <button class="dayBtn active" data-day="1">Day 1 · Sat, Jul 25</button>
+      <button class="dayBtn" data-day="2">Day 2 · Sun, Jul 26</button>
+    </div>
+
+    <div class="dayPane active" id="day1">
+      <div class="timeline">
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">9:00 AM</span><div class="tTitle">Arrival & registration</div><p class="tDetail">Check-in, name tags, and swag bags. Register your team here if you haven't already.</p></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">10:00 AM</span><div class="tTitle">Opening ceremony</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">10:45 AM</span><div class="tTitle">MYHack 101</div><p class="tDetail">How to brainstorm and pick a hackathon-worthy idea.</p></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">11:30 AM</span><div class="tTitle">Icebreakers & team formation</div><p class="tDetail">No team yet? Find one here.</p></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">12:00 PM</span><div class="tTitle">Hacking begins</div><p class="tDetail">Mentors available all afternoon.</p></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">12:15 PM</span><div class="tTitle">Talk: AI-driven ideation</div></div></div>
+        <div class="tItem meal"><div class="tDot"></div><div class="tCard"><span class="tTime">1:30 PM</span><div class="tTitle">Dhuhr + lunch</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">4:00 PM</span><div class="tTitle">Talk: prompt engineering techniques</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">4:30 PM</span><div class="tTitle">Hacking continues</div></div></div>
+        <div class="tItem prayer"><div class="tDot"></div><div class="tCard"><span class="tTime">6:30 PM</span><div class="tTitle">Asr</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">7:00 PM</span><div class="tTitle">Screen break</div><p class="tDetail">30 minutes, mandatory, no screens.</p></div></div>
+        <div class="tItem meal"><div class="tDot"></div><div class="tCard"><span class="tTime">8:00 PM</span><div class="tTitle">Dinner</div></div></div>
+        <div class="tItem prayer"><div class="tDot"></div><div class="tCard"><span class="tTime">9:55 PM</span><div class="tTitle">Isha</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">11:00 PM</span><div class="tTitle">Overnight hacking</div><p class="tDetail">Separate gender halls open — chaperoned rest rooms available.</p></div></div>
+      </div>
+    </div>
+
+    <div class="dayPane" id="day2">
+      <div class="timeline">
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">12:00 AM</span><div class="tTitle">Overnight hacking continues</div><p class="tDetail">Gender-separated halls, rest available.</p></div></div>
+        <div class="tItem prayer"><div class="tDot"></div><div class="tCard"><span class="tTime">5:00 AM</span><div class="tTitle">Fajr</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">6:00 AM</span><div class="tTitle">Hacking continues</div></div></div>
+        <div class="tItem meal"><div class="tDot"></div><div class="tCard"><span class="tTime">8:00 AM</span><div class="tTitle">Breakfast</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">8:30 AM</span><div class="tTitle">Final development sprint</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">10:00 AM</span><div class="tTitle">Mid-day mentor check-in</div><p class="tDetail">Optional.</p></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">11:00 AM</span><div class="tTitle">Display setup</div><p class="tDetail">Set up your table in the showcase hall.</p></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">12:00 PM</span><div class="tTitle">Submissions due</div><p class="tDetail">All projects must be submitted on Devpost by this time.</p></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">12:30 PM</span><div class="tTitle">Judging begins</div></div></div>
+        <div class="tItem meal"><div class="tDot"></div><div class="tCard"><span class="tTime">1:30 PM</span><div class="tTitle">Dhuhr + lunch</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">2:30 PM</span><div class="tTitle">Judging continues</div></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">4:00 PM</span><div class="tTitle">Awards ceremony</div><p class="tDetail">Winners, certificates, and closing remarks.</p></div></div>
+        <div class="tItem"><div class="tDot"></div><div class="tCard"><span class="tTime">4:30 PM</span><div class="tTitle">Event ends</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="wrap">
+    <div class="ctaBand">
+      <h2>Want to see the full workshop lineup?</h2>
+      <div class="heroBtns">
+        <a href="workshops.html" class="btn btn-gold">View workshops →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footGrid">
+      <div>
+        <div class="fBrand">MY-HACK 2026</div>
+        <p>Organized by the Mafiq Foundation, Inc.</p>
+        <p>P.O. Box 730, Herndon, Virginia 20172, USA</p>
+        <p>Email: <a href="mailto:my-hack@mafiq.org" style="text-decoration:underline;">my-hack@mafiq.org</a></p>
+      </div>
+      <div class="footLinks">
+        <a href="index.html#tracks">Tracks</a>
+        <a href="workshops.html">Workshops</a>
+        <a href="submission.html">Submission</a>
+        <a href="judging.html">Judging</a>
+        <a href="resources.html">Resources</a>
+        <a href="index.html#faq">FAQ</a>
+      </div>
+    </div>
+    <div class="copyline">Copyright © 2026 Mafiq Foundation. Schedule is tentative and subject to change.</div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.dayBtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('.dayBtn').forEach(function(b){b.classList.remove('active');});
+      document.querySelectorAll('.dayPane').forEach(function(p){p.classList.remove('active');});
+      btn.classList.add('active');
+      document.getElementById('day'+btn.dataset.day).classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
