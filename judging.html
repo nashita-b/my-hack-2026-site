@@ -23,9 +23,9 @@
     </nav>
     <div class="navActions">
       <!-- WhatsApp community channel -->
-      <a class="btn btn-ghost" href="https://chat.whatsapp.com/Lw0ssvO4tS19f6dNPzfoEf" target="_blank" rel="noopener">WhatsApp ↗</a>
+      <a class="btn btn-ghost" href="https://chat.whatsapp.com/Lw0ssvO4tS19f6dNPzfoEf" target="_blank" rel="noopener">Community Chat ↗</a>
       <!-- Devpost submission portal for the ICM event -->
-      <a class="btn btn-gold" href="https://myhack-2026.devpost.com/" target="_blank" rel="noopener">Devpost ↗</a>
+      <a class="btn btn-gold" href="https://myhack-2026.devpost.com/" target="_blank" rel="noopener">Submit Project ↗</a>
     </div>
   </div>
 </header>
@@ -38,35 +38,114 @@
   </div>
 </section>
 
-<section class="section-pad">
+<section class="section-pad onLight">
   <div class="wrap">
     <div class="sectionHead">
       <span class="eyebrow">How you're judged</span>
-      <h2>Seven criteria.</h2>
+      <h2 style="color:var(--ink);">100 points, five categories.</h2>
+      <p style="color:var(--ink-soft);">Scores are a general range within each band, not an exact science. <a href="myhack-2026-judging-rubric.pdf" target="_blank" style="color:var(--teal-deep);text-decoration:underline;">Download the judge's PDF ↗</a></p>
     </div>
-    <div class="critGrid">
-      <div class="critRow"><b>Impact</b><span>Real-world significance</span></div>
-      <div class="critRow"><b>Innovation</b><span>Uniqueness & creativity</span></div>
-      <div class="critRow"><b>Feasibility</b><span>Can it actually be built out?</span></div>
-      <div class="critRow"><b>Technical execution</b><span>Code quality & performance</span></div>
-      <div class="critRow"><b>Presentation</b><span>Clarity of your demo & pitch</span></div>
-      <div class="critRow"><b>Use of AI</b><span>Meaningful & ethical</span></div>
-      <div class="critRow"><b>Islamic relevance</b><span>Value to the Muslim community</span></div>
+
+    <div class="rubricCat">
+      <div class="rcHead"><h3>1. Impact & Relevance</h3><span>Max 30 pts</span></div>
+      <div class="scaleTrack">
+        <span class="scaleMarker" style="left:0%;"></span>
+        <span class="scaleMarker" style="left:33%;"></span>
+        <span class="scaleMarker" style="left:67%;"></span>
+        <span class="scaleMarker" style="left:100%;"></span>
+      </div>
+      <div class="scaleCols">
+        <div class="scaleCol"><div class="scLabel">No Credit</div><div class="scPts">0 pts</div><div class="scDesc">No clear connection to a real community need.</div></div>
+        <div class="scaleCol"><div class="scLabel">Developing</div><div class="scPts">~10 pts</div><div class="scDesc">Addresses a real need, but the benefit is vague or small-scale.</div></div>
+        <div class="scaleCol"><div class="scLabel">Effective</div><div class="scPts">~20 pts</div><div class="scDesc">Clearly helps a specific group — you can picture who'd use it.</div></div>
+        <div class="scaleCol"><div class="scLabel">Excellent</div><div class="scPts">30 pts</div><div class="scDesc">Meaningfully benefits the Muslim community in a specific, believable, real-world way.</div></div>
+      </div>
+    </div>
+
+    <div class="rubricCat">
+      <div class="rcHead"><h3>2. Innovation</h3><span>Max 25 pts</span></div>
+      <div class="scaleTrack">
+        <span class="scaleMarker" style="left:0%;"></span>
+        <span class="scaleMarker" style="left:32%;"></span>
+        <span class="scaleMarker" style="left:68%;"></span>
+        <span class="scaleMarker" style="left:100%;"></span>
+      </div>
+      <div class="scaleCols">
+        <div class="scaleCol"><div class="scLabel">No Credit</div><div class="scPts">0 pts</div><div class="scDesc">Existing solution with no meaningful changes.</div></div>
+        <div class="scaleCol"><div class="scLabel">Developing</div><div class="scPts">~8 pts</div><div class="scDesc">Adds a small twist to an established approach.</div></div>
+        <div class="scaleCol"><div class="scLabel">Effective</div><div class="scPts">~17 pts</div><div class="scDesc">A genuinely new angle, or a fresh combination of ideas.</div></div>
+        <div class="scaleCol"><div class="scLabel">Excellent</div><div class="scPts">25 pts</div><div class="scDesc">An approach or perspective that stands out as original.</div></div>
+      </div>
+    </div>
+
+    <div class="rubricCat">
+      <div class="rcHead"><h3>3. Presentation & Design</h3><span>Max 20 pts</span></div>
+      <div class="scaleTrack">
+        <span class="scaleMarker" style="left:0%;"></span>
+        <span class="scaleMarker" style="left:35%;"></span>
+        <span class="scaleMarker" style="left:70%;"></span>
+        <span class="scaleMarker" style="left:100%;"></span>
+      </div>
+      <div class="scaleCols">
+        <div class="scaleCol"><div class="scLabel">No Credit</div><div class="scPts">0 pts</div><div class="scDesc">Hard to understand what it does or why it matters.</div></div>
+        <div class="scaleCol"><div class="scLabel">Developing</div><div class="scPts">~7 pts</div><div class="scDesc">Some effort, but navigation or the pitch is confusing.</div></div>
+        <div class="scaleCol"><div class="scLabel">Effective</div><div class="scPts">~14 pts</div><div class="scDesc">Clear, well-organized demo; a few extra instructions still needed.</div></div>
+        <div class="scaleCol"><div class="scLabel">Excellent</div><div class="scPts">20 pts</div><div class="scDesc">Clean, compelling design and pitch — no extra explanation needed.</div></div>
+      </div>
+    </div>
+
+    <div class="rubricCat">
+      <div class="rcHead"><h3>4. Technical Execution & Feasibility</h3><span>Max 20 pts</span></div>
+      <div class="scaleTrack">
+        <span class="scaleMarker" style="left:0%;"></span>
+        <span class="scaleMarker" style="left:35%;"></span>
+        <span class="scaleMarker" style="left:70%;"></span>
+        <span class="scaleMarker" style="left:100%;"></span>
+      </div>
+      <div class="scaleCols">
+        <div class="scaleCol"><div class="scLabel">No Credit</div><div class="scPts">0 pts</div><div class="scDesc">Little to nothing works; core features missing or broken.</div></div>
+        <div class="scaleCol"><div class="scLabel">Developing</div><div class="scPts">~7 pts</div><div class="scDesc">Some features work, but major pieces are missing or broken.</div></div>
+        <div class="scaleCol"><div class="scLabel">Effective</div><div class="scPts">~14 pts</div><div class="scDesc">Most core features work as intended; realistically finishable soon.</div></div>
+        <div class="scaleCol"><div class="scLabel">Excellent</div><div class="scPts">20 pts</div><div class="scDesc">Fully functional — could go live with minimal extra work.</div></div>
+      </div>
+    </div>
+
+    <div class="rubricCat">
+      <div class="rcHead"><h3>5. Track Fit</h3><span>Max 5 pts</span></div>
+      <p style="font-size:12.5px;color:var(--ink-soft);margin:-8px 0 14px;">"How directly does this project address its chosen track's challenge?"</p>
+      <div class="scaleTrack">
+        <span class="scaleMarker" style="left:0%;"></span>
+        <span class="scaleMarker" style="left:50%;"></span>
+        <span class="scaleMarker" style="left:100%;"></span>
+      </div>
+      <div class="scaleCols" style="grid-template-columns:repeat(3,1fr);">
+        <div class="scaleCol"><div class="scLabel">Doesn't fit</div><div class="scPts">0 pts</div><div class="scDesc">Not meaningfully connected to the track's challenge.</div></div>
+        <div class="scaleCol"><div class="scLabel">Loosely fits</div><div class="scPts">~3 pts</div><div class="scDesc">Touches on the theme but isn't the main focus.</div></div>
+        <div class="scaleCol"><div class="scLabel">Strong fit</div><div class="scPts">5 pts</div><div class="scDesc">Directly and clearly addresses the track's specific challenge.</div></div>
+      </div>
+    </div>
+
+    <div class="bonusBlock">
+      <div class="rcHead" style="margin-bottom:8px;"><h3 style="font-size:16px;">Optional bonus — AI Use</h3><span>Up to +5 pts</span></div>
+      <p style="font-size:13.5px;color:var(--ink-soft);margin:0 0 14px;">Scored on AI in the <b>final product</b> only — not on whether the team used AI tools like Claude or Copilot while building. No AI at all is not penalized; a project can still score the full 100 without it.</p>
+      <div class="bonusRow"><span class="bPts">0 pts</span><span class="bDesc">No AI in the product, or AI is present but adds nothing real.</span></div>
+      <div class="bonusRow"><span class="bPts">3 pts</span><span class="bDesc">AI adds genuine value to the experience.</span></div>
+      <div class="bonusRow"><span class="bPts">5 pts</span><span class="bDesc">AI is thoughtfully integrated and is a real reason the project works as well as it does.</span></div>
     </div>
   </div>
 </section>
 
-<section class="section-pad onLight">
+<section class="section-pad">
   <div class="wrap">
     <div class="sectionHead">
       <span class="eyebrow">Awards</span>
       <h2>Three tracks. Three winners each.</h2>
-      <p>Prizes are awarded per track — so there's a 1st, 2nd, and 3rd place team within each of the three project tracks. See the full breakdown by track on the <a href="index.html#tracks" style="text-decoration:underline;color:var(--teal-deep);">home page</a>.</p>
+      <p>Each team submits to one track. Prizes are awarded per track — so there's a 1st, 2nd, and 3rd place team within each of the three project tracks.</p>
     </div>
     <div class="prizeStrip">
-      <div class="prizeCard first" style="background:var(--white);border-color:var(--paper-dim);"><span class="place">1st place</span><div class="amt" style="color:var(--ink);">$500</div><div class="sub" style="color:var(--ink-soft);">per track</div></div>
-      <div class="prizeCard" style="background:var(--white);border-color:var(--paper-dim);"><span class="place">2nd place</span><div class="amt" style="color:var(--ink);">$300</div><div class="sub" style="color:var(--ink-soft);">per track</div></div>
-      <div class="prizeCard" style="background:var(--white);border-color:var(--paper-dim);"><span class="place">3rd place</span><div class="amt" style="color:var(--ink);">$200</div><div class="sub" style="color:var(--ink-soft);">per track</div></div>
+      <div class="prizeCard first"><span class="place">1st place</span><div class="amt">$500</div><div class="sub">per track</div></div>
+      <div class="prizeCard second"><span class="place">2nd place</span><div class="amt">$300</div><div class="sub">per track</div></div>
+      <div class="prizeCard third"><span class="place">3rd place</span><div class="amt">$200</div><div class="sub">per track</div></div>
     </div>
   </div>
 </section>
@@ -101,6 +180,13 @@
         <a href="index.html#faq">FAQ</a>
       </div>
     </div>
+    <div class="footLogos">
+      <a class="logoChip" href="https://mafiq.org/" target="_blank" rel="noopener" title="Mafiq Foundation"><img src="images/mafiq-logo.png" alt="Mafiq Foundation"></a>
+      <div class="logoChip" title="Islamic Center of Maryland"><img src="images/icm-logo.png" alt="Islamic Center of Maryland"></div>
+      <div class="logoChip" title="ISNA"><img src="images/isna-logo.png" alt="ISNA"></div>
+      <div class="logoChip" title="MYNA"><img src="images/myna-logo.png" alt="MYNA"></div>
+    </div>
+
     <div class="copyline">Copyright © 2026 Mafiq Foundation.</div>
   </div>
 </footer>
