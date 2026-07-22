@@ -70,6 +70,7 @@ nav.links a:hover, nav.links a.active{color:var(--gold);}
 .btn-ghost{background:transparent;color:var(--white);border-color:rgba(255,255,255,0.3);}
 .btn-ghost:hover{border-color:var(--gold);color:var(--gold);}
 .navActions{display:flex;gap:10px;align-items:center;}
+.navActions .btn{white-space:nowrap;}
 @media (max-width:860px){ nav.links{display:none;} }
 
 /* ---------- PAGE HERO (sub-pages) ---------- */
@@ -197,10 +198,14 @@ nav.links a:hover, nav.links a.active{color:var(--gold);}
 .onLight .critRow span{color:var(--ink-soft);}
 .prizeStrip{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px;}
 @media (max-width:600px){.prizeStrip{grid-template-columns:1fr;}}
-.prizeCard{background:var(--navy-800);border-radius:var(--radius);padding:22px;text-align:center;border:1px solid rgba(255,255,255,0.08);}
-.prizeCard.first{border-color:var(--gold);}
-.prizeCard.second{border-color:#C7CDD9;}
-.prizeCard.third{border-color:#C9884F;}
+.prizeCard{background:var(--navy-800);border-radius:var(--radius);padding:22px;text-align:center;border:1px solid rgba(255,255,255,0.08);position:relative;overflow:hidden;}
+.prizeCard::before{content:"";position:absolute;top:0;left:0;right:0;height:5px;}
+.prizeCard.first{background:linear-gradient(180deg, rgba(255,201,60,0.14), var(--navy-800) 60%);}
+.prizeCard.first::before{background:var(--gold);}
+.prizeCard.second{background:linear-gradient(180deg, rgba(199,205,217,0.14), var(--navy-800) 60%);}
+.prizeCard.second::before{background:#C7CDD9;}
+.prizeCard.third{background:linear-gradient(180deg, rgba(201,136,79,0.16), var(--navy-800) 60%);}
+.prizeCard.third::before{background:#C9884F;}
 .prizeCard .place{font-family:var(--font-pixel);font-size:10px;color:var(--gold);margin-bottom:10px;display:block;}
 .prizeCard.first .place{color:var(--gold);}
 .prizeCard.second .place{color:#C7CDD9;}
@@ -210,6 +215,25 @@ nav.links a:hover, nav.links a.active{color:var(--gold);}
 .prizeCard.second .amt{color:#C7CDD9;}
 .prizeCard.third .amt{color:#C9884F;}
 .prizeCard .sub{font-size:12.5px;color:var(--white-45);margin-top:4px;}
+
+/* ---------- SPONSORS SECTION (homepage) ---------- */
+.sponsorRow{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:center;}
+.sponsorRow .logoChip{background:var(--white);border-radius:10px;padding:14px 22px;display:flex;align-items:center;height:40px;}
+.sponsorRow .logoChip img{height:40px;width:auto;display:block;}
+.sponsorRow a.logoChip{transition:transform .15s;}
+.sponsorRow a.logoChip:hover{transform:translateY(-2px);}
+
+/* ---------- FORM CALLOUT (consent form, signups) ---------- */
+.formCallout{
+  display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;
+  background:var(--navy-800);border:1px solid rgba(255,255,255,0.08);border-radius:var(--radius);
+  padding:22px 26px;margin-bottom:16px;
+}
+.formCallout .fcText h3{font-size:15px;color:var(--white);margin-bottom:4px;}
+.formCallout .fcText p{font-size:13.5px;color:var(--white-70);margin:0;max-width:480px;}
+.onLight .formCallout{background:var(--white);border-color:var(--paper-dim);}
+.onLight .formCallout .fcText h3{color:var(--ink);}
+.onLight .formCallout .fcText p{color:var(--ink-soft);}
 
 /* ---------- STEP LIST (submission page) ---------- */
 .stepGrid{display:grid;gap:18px;}
