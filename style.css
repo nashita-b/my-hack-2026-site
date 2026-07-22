@@ -21,7 +21,7 @@
   --radius:14px;
 }
 *{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
+html{scroll-behavior:smooth;overflow-x:hidden;}
 body{
   margin:0;
   background:var(--navy-900);
@@ -29,6 +29,8 @@ body{
   font-family:var(--font-body);
   line-height:1.6;
   -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  max-width:100vw;
 }
 a{color:inherit;}
 img{max-width:100%;display:block;}
@@ -71,7 +73,18 @@ nav.links a:hover, nav.links a.active{color:var(--gold);}
 .btn-ghost:hover{border-color:var(--gold);color:var(--gold);}
 .navActions{display:flex;gap:10px;align-items:center;}
 .navActions .btn{white-space:nowrap;}
-@media (max-width:860px){ nav.links{display:none;} }
+.navMobileBtn{display:none;background:none;border:none;color:var(--white);font-size:24px;cursor:pointer;padding:4px 6px;line-height:1;}
+@media (max-width:860px){
+  nav.links{display:none;}
+  .navActions{display:none;}
+  .navMobileBtn{display:block;}
+}
+.mobileMenu{display:none;flex-direction:column;background:var(--navy-800);border-top:1px solid rgba(255,255,255,0.08);padding:8px 24px 20px;}
+.mobileMenu.open{display:flex;}
+.mobileMenu a{color:var(--white-70);text-decoration:none;font-size:15.5px;font-weight:600;padding:13px 0;border-bottom:1px solid rgba(255,255,255,0.07);}
+.mobileMenu a.active{color:var(--gold);}
+.mobileMenu .mobileActions{display:flex;flex-direction:column;gap:10px;margin-top:16px;}
+.mobileMenu .mobileActions .btn{width:100%;justify-content:center;text-align:center;}
 
 /* ---------- PAGE HERO (sub-pages) ---------- */
 .pageHero{

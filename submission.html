@@ -29,6 +29,21 @@
       <!-- Devpost submission portal for the ICM event -->
       <a class="btn btn-gold" href="https://myhack-2026.devpost.com/" target="_blank" rel="noopener">Submit Project ↗</a>
     </div>
+    <button class="navMobileBtn" id="mobileMenuBtn" aria-label="Toggle menu">☰</button>
+  </div>
+  <div class="mobileMenu" id="mobileMenu">
+    <a href="index.html">Home</a>
+      <a href="conduct.html">Prep & Policies</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="submission.html" class="active">Submission</a>
+      <a href="judging.html">Judging</a>
+      <a href="resources.html">Resources</a>
+    <div class="mobileActions">
+      <!-- WhatsApp community channel -->
+      <a class="btn btn-ghost" href="https://chat.whatsapp.com/Lw0ssvO4tS19f6dNPzfoEf" target="_blank" rel="noopener">Community Chat ↗</a>
+      <!-- Devpost submission portal for the ICM event -->
+      <a class="btn btn-gold" href="https://myhack-2026.devpost.com/" target="_blank" rel="noopener">Submit Project ↗</a>
+    </div>
   </div>
 </header>
 
@@ -168,5 +183,24 @@
   }
 </script>
 
+
+<script>
+  (function(){
+    var mBtn = document.getElementById('mobileMenuBtn');
+    var mMenu = document.getElementById('mobileMenu');
+    if(mBtn && mMenu){
+      mBtn.addEventListener('click', function(){
+        mMenu.classList.toggle('open');
+        mBtn.textContent = mMenu.classList.contains('open') ? '✕' : '☰';
+      });
+      mMenu.querySelectorAll('a').forEach(function(a){
+        a.addEventListener('click', function(){
+          mMenu.classList.remove('open');
+          mBtn.textContent = '☰';
+        });
+      });
+    }
+  })();
+</script>
 </body>
 </html>
