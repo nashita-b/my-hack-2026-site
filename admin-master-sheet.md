@@ -15,12 +15,18 @@
 | Tracks | Inspiration only — not a formal category, not scored |
 | HS/college split | Confirmed by admin — NOT split by track, split by division for prizes only |
 | SSL hours | Self-reported to Nashita post-event |
+| Participant check-in | QR code → Jotform → live Google Sheets (via Jotform's native integration) — no manual entry needed |
+| Volunteer arrival tracking | Same approach — quick check-in form on arrival, feeds a live sheet so admin can see who's actually on-site |
+| Judging setup | Team tables numbered; judge pairs assigned specific table numbers to visit |
+| Mentor coordination | No separate WhatsApp group — use the existing student group with @ mentions; one pinned message lists mentor names + skills |
 
 **Still open — needs a decision:**
 - [ ] Prize payout method (cash / check / gift card / other)
 - [ ] Does the consent form cover photo/video release?
 - [ ] Are judges fed / do they need parking arranged?
 - [ ] Chaperone-to-participant ratio overnight
+- [ ] Lanyard colors for students vs. volunteers (and who's ordering/printing them)
+- [ ] Contingency plan if shift sign-ups stay low — see Section 8
 
 ---
 
@@ -37,7 +43,7 @@
 ## 3. Judge Pairings
 *(Assign once judge headcount and team roster are both final.)*
 
-| Pair # | Judge 1 | Judge 2 | Assigned Teams | Division(s) covered |
+| Pair # | Judge 1 | Judge 2 | Table #s Assigned | Division(s) covered |
 |---|---|---|---|---|
 | 1 | | | | |
 | 2 | | | | |
@@ -45,7 +51,7 @@
 | 4 | | | | |
 
 **Who's collecting score sheets:** [FILL IN]
-**Who's doing the score tally / spreadsheet transfer:** [FILL IN]
+**Who's doing the score tally:** [FILL IN] — use `myhack-2026-score-tally.xlsx` (uploaded to Google Sheets), one tab per division, scores auto-average and auto-rank once entered.
 
 ---
 
@@ -76,14 +82,27 @@
 
 ---
 
-## 6. Physical Logistics Checklist
+## 8. Understaffing Contingency
+*(As of this writing, only 2 people have confirmed specific shift times on the shift-confirmation form, out of 19 original signups.)*
+
+- [ ] Send a reminder to everyone who filled out interest but hasn't confirmed shifts yet — post in volunteer WhatsApp + follow-up email
+- [ ] Set a soft deadline for shift confirmations (e.g. one week out) so gaps are visible with enough time to react
+- [ ] Identify minimum viable coverage per block (realistically, how few people can each block run with?)
+- [ ] If gaps remain close to the event: post a last-call in the general MY-HACK channels, and consider asking ICM community contacts directly
+- [ ] Have a mental list of who can flex between Event Team and Mentor roles if one is short and the other has surplus
+
+---
+
+## 9. Physical Logistics Checklist (moved from old Section 6, expanded)
 - [ ] WiFi network name + password confirmed and ready to share
 - [ ] Parking plan communicated to volunteers/judges
 - [ ] First aid kit location + owner assigned
 - [ ] Signage for check-in, judging area, overnight halls
-- [ ] Name tags / lanyards / volunteer ID method decided
+- [ ] Lanyards — student color + volunteer color decided, ordered/printed
+- [ ] QR code for check-in printed and posted at check-in table
 - [ ] Consent forms — physical collection point and storage plan for after the event
 - [ ] Score sheets printed (enough for 8 judges × ~13 teams, plus spares)
+- [ ] Signage/announcement encouraging participants to invite friends & family to the Sunday showcase
 
 ---
 

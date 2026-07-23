@@ -26,11 +26,15 @@ Every volunteer, mentor, and judge is expected to follow the same code of conduc
 ### Communication channels
 - **Volunteer WhatsApp:** [NEED FROM YOU: link] — day-of coordination, shift questions, "need backup at X"
 - **Judges WhatsApp:** [NEED FROM YOU: link, once created] — judging-day coordination only
-- **Student WhatsApp:** exists for participants — you don't need to be in this one unless you're also fielding student questions directly
+- **Student WhatsApp:** exists for participants — mentors should also be in this one (see Mentor section below)
+
+### Confirming you've arrived for your shift
+When you arrive for your shift, fill out the **volunteer check-in form**: [PENDING — link once built]. Just your name and which shift you're starting — takes 10 seconds. This feeds a live spreadsheet so organizers can see who's actually on-site at any given time, not just who signed up.
 
 ### If something goes wrong
 - **Non-urgent issue:** post in the volunteer WhatsApp
 - **Urgent / safety issue:** contact [NEED FROM YOU: name + phone number of the on-site point of contact for emergencies]
+- **Need to reach a participant's parent:** their emergency contact info is on their printed consent form, collected at check-in
 - **Medical issue:** [NEED FROM YOU: first aid kit location + who's responsible for it]
 
 ### Logistics
@@ -38,9 +42,6 @@ Every volunteer, mentor, and judge is expected to follow the same code of conduc
 - **Parking:** [NEED FROM YOU: any instructions — designated lot, overflow parking, etc.]
 - **Food:** Meals are provided for mentors and event team during your shift. [NEED FROM YOU: confirm whether this applies to judges too — they weren't mentioned in the original role posting]
 - **What to bring:** Comfortable clothes, a charger, and if you're on an overnight shift, anything you'd want for staying up late (snacks, a jacket — the building can get cold).
-
-### Volunteer check-in
-[NEED FROM YOU: do volunteers check in anywhere when they arrive, or just show up at their assigned post? If there's a check-in point, where and with whom?]
 
 ---
 
@@ -61,10 +62,12 @@ You keep the event running — check-in, meals, setup/breakdown, ceremonies, and
 | F | Sun 12:00 PM–4:30 PM | Support judging & awards logistics |
 
 ### Check-in table (Block A)
-What to collect from each participant:
-- Confirm their name against the participant list
+Participants check in via a **QR code check-in form** (a Jotform, printed as a QR code at the table) — much faster than a paper roster for 39 people, and it feeds a live Google Sheet automatically so organizers can see who's arrived in real time.
+
+What you're doing at the table:
+- Point people to the QR code (or search up their name for them if they're having phone trouble)
 - **Collect their printed, signed parent consent form** — no consent form, no check-in. If someone doesn't have it, [NEED FROM YOU: what's the fallback? Turn them away, let them in and follow up, hold a blank form on-site for a parent to sign remotely?]
-- Mark them as arrived (for headcount)
+- Hand them a **student lanyard** (different color from volunteer lanyards — [NEED FROM YOU: confirm colors once decided])
 
 *Note: we are not tracking which team someone belongs to at check-in — teams don't exist yet at this point. Team rosters get captured after the team formation session (see below).*
 
@@ -91,7 +94,13 @@ As the 12:00 PM Sunday deadline approaches, help remind teams to actually submit
 Support teams with their projects — troubleshooting, ideation, guiding presentations. You don't need to be an expert in everything; familiarity with one or more common hackathon tools (coding, design, GitHub, AI tools, Devpost) is enough.
 
 ### How deployment works
-There's no assigned table — **rotate between teams** throughout your shift, checking in on how they're doing. If a team has a specific, urgent question, they'll post in the community WhatsApp (e.g. "stuck on Firebase auth at Table 4") — any available mentor can respond.
+There's no assigned table — **rotate between teams** throughout your shift, checking in on how they're doing.
+
+**For specific questions:** join the student WhatsApp group. When a team has a specific need, they'll post something like *"@[Mentor Name] — stuck on Firebase auth, we're at Table 5, come find us when free"*. Any mentor not currently tagged is also welcome to jump in if they see something they can help with.
+
+At the start of hacking, we'll pin a message in the student WhatsApp listing each mentor's name + their main skill(s), so students know who to tag for what.
+
+**Mentor corner:** there's one designated spot (announced day-of) where a mentor can be found if a team can't locate anyone roaming — not a continuously-staffed table, just a known fallback location.
 
 ### What to keep in mind while advising
 Teams are being judged on Impact & Relevance, Innovation, Presentation & Design, and Technical Execution & Feasibility (plus an optional AI-use bonus) — full rubric here: **[myhack-2026-icm.vercel.app/judging.html](https://my-hack-2026-icm.vercel.app/judging.html)**. You don't need to coach directly toward the rubric, but it's useful context for the kind of feedback that'll actually help a team.
@@ -107,16 +116,16 @@ Same 6 blocks as Event Team (see table above) — check your confirmed block(s) 
 Evaluate final projects using the provided rubric, and give constructive feedback.
 
 ### Format: walkthrough, not presentations
-Judging happens at team display tables (set up during Block F) — you'll visit teams directly rather than teams presenting to you in a room.
+Judging happens at team display tables (set up during Block F) — you'll visit teams directly rather than teams presenting to you in a room. Every team's table has a number. You'll get a list of table numbers assigned to your pair.
 
 ### How judges are grouped
-Judges are split into pairs, and each pair is assigned a small group of teams (3–4) to visit during the judging window. You'll get your pairing and team assignments from [NEED FROM YOU: who's sending this out, and when — day-of, or in advance?].
+Judges are split into pairs, and each pair is assigned a small group of teams (3–4, by table number) to visit during the judging window. You'll get your pairing and table assignments from [NEED FROM YOU: who's sending this out, and when — day-of, or in advance?]. Pairs are the default, but if a pair needs to split up to cover more ground, that's fine — just make sure both judges' scores still get recorded per team.
 
 ### Scoring
 - Use the **printable score sheet** (based on the judging rubric) — fill one out by hand for each team you visit
 - Full rubric with scoring bands: **[myhack-2026-icm.vercel.app/judging.html](https://my-hack-2026-icm.vercel.app/judging.html)**
-- Teams are judged within their division (High School or College) — you'll know which division your assigned teams are in from your team list
-- When you're done, hand your completed sheets to [NEED FROM YOU: who's collecting score sheets, and where?]
+- Teams are judged within their division (High School or College) — your table assignment list will note which division each team is in
+- When you're done, hand your completed sheets to [NEED FROM YOU: who's collecting score sheets, and where?] — scores get entered into a shared tally sheet that ranks automatically
 
 ### Timing
 Judging runs 12:30–4:00 PM Sunday, with a break for Dhuhr + lunch around 1:30. Plan to visit your assigned teams within that window.
